@@ -41,4 +41,4 @@ RUN cd && \
 RUN mkdir /root/mlvpn
 COPY . /root/mlvpn
 
-#CMD ["/mlvpn/mlvpn/sbin/mlvpn"]
+CMD ["/bin/bash", "/root/mlvpn/launch-bonder.sh"]
